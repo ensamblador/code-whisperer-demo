@@ -1,6 +1,7 @@
 import boto3
 import os
 from botocore.exceptions import ClientError
+import PIL
 
 #aws lambda function that sends an email using SES API
 # input event contains from, to and body in plain text
